@@ -1,0 +1,14 @@
+.Search-form {
+  font-family: sans-serif;
+  text-align: center;
+}
+.form-control {
+  min-width: 170px;
+}
+.btn-primary {
+  max-width: 140px;
+}
+.fa-location-dot {
+  color: white;
+  font-size: 22px;
+}
