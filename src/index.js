@@ -7,7 +7,15 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <div className="Container">
+      <div className="Weather-wrapper">
+        <div className="Weather-container">
+          <Form />
+          <Main />
+          <ForecastRow />
+        </div>
+      </div>
+    </div>
   </React.StrictMode>
 );
 
