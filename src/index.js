@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 import Form from "./Form";
 import Main from "./Main";
-import ForecastRow from "./ForecastRow";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,7 +16,6 @@ root.render(
         <div className="Weather-container">
           <Form />
           <Main />
-          <ForecastRow />
         </div>
       </div>
     </div>

@@ -1,13 +1,48 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: cover;
+  font-family: "Mali";
+  color: #5697bf;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  font-size: 32px;
+  line-height: 32px;
+  color: #3b7faa;
+  font-weight: 700;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5697bf;
+  margin: 0;
+  padding: 0;
+}
+
+li::first-letter {
+  text-transform: capitalize;
+}
+
+.Weather-wrapper {
+  max-width: 800px;
+  margin: 100px auto;
+  width: 100%;
+}
+
+.Weather-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 3px solid rgba(0, 0, 0, 0.192);
+  border-radius: 50px;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  font-family: "Edu NSW ACT Foundation", cursive;
 }

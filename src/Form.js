@@ -19,11 +19,6 @@ export default function Form() {
             className="btn btn-primary w-100"
           />
         </div>
-        <div className="col-sm-1 pb-2">
-          <button className="btn btn-info">
-            <i className="fa-solid fa-location-dot"></i>
-          </button>
-        </div>
       </div>
     </form>
   );
